@@ -1,0 +1,43 @@
+.about {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+  .text {
+    position: absolute;
+    bottom: 50rem;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    word-spacing: 9px;
+  }
+  .container {
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 6rem;
+
+    .meText {
+      width: 50%;
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        font-size: 1.2rem;
+      }
+    }
+    .image {
+      width: 50%;
+      img {
+        width: 40rem;
+      }
+    }
+  }
+}
