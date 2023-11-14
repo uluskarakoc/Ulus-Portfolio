@@ -1,11 +1,19 @@
 import "./navbar.scss";
+import { motion } from "framer-motion";
+import Sidebar from "../sidebar/Sidebar";
 
 function Navbar() {
   return (
     <div className="navbar">
-      {/* Sidebar */}
+      <Sidebar />
       <div className="wrapper">
-        <span>Ulus Karakoc</span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          Ulus Karakoc
+        </motion.span>
         <div className="social">
           <a href="https://www.xing.com/profile/Ulus_Karakoc">
             {" "}
