@@ -51,8 +51,8 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>MERN Stack Developer</motion.h1>
           <motion.div className="button" variants={textVariants}>
             {" "}
+            <motion.button>Die letzten Projekte</motion.button>{" "}
             <motion.button>Contact Me</motion.button>
-            <motion.button>Die letzten Projekte</motion.button>
           </motion.div>
         </motion.div>
         <motion.img
@@ -71,7 +71,7 @@ const Hero = () => {
         Web Developer
       </motion.div>
       <div className="imageContainer">
-        <img src="./Bewerbungsfoto.jpg" alt="" />
+        <img src="./Ulus.jpg" alt="" />
       </div>
     </div>
   );
