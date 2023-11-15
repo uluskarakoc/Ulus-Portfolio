@@ -4,9 +4,15 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <div className="about">
-      <h1 className="text">About Me</h1>
+      <h1 className="text">About <span>Me</span> </h1>
       <div className="container">
-        <motion.div whileHover={{ scale: 1.2 }} className="meText">
+        <motion.div
+          initial={{ x: "-100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", duration: 1 }}
+          whileHover={{ scale: 1.2 }}
+          className="meText"
+        >
           <h1>Hi ich bin ULUS,</h1>
           <p>
             Ich habe mein Hobby, Photoshop und Fotografie, das ich in meinen
@@ -19,7 +25,12 @@ function About() {
             dem stundenlangen Betrachten eines Gemäldes durch einen Maler.
           </p>
         </motion.div>
-        <motion.div className="image">
+        <motion.div
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", duration: 1 }}
+          className="image"
+        >
           <img src="./code2.jpg" alt="" />
         </motion.div>
       </div>

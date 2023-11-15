@@ -14,6 +14,9 @@
     font-size: 3rem;
     letter-spacing: 3px;
     word-spacing: 9px;
+    span {
+      color: rebeccapurple;
+    }
   }
   .container {
     max-width: 1366px;
@@ -25,7 +28,7 @@
 
     .meText {
       width: 50%;
-     
+
       h1 {
         font-size: 3rem;
         margin-bottom: 1rem;
@@ -39,7 +42,6 @@
       }
     }
     .image {
-     
       width: 50%;
       img {
         width: 40rem;

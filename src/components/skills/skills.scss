@@ -1,0 +1,26 @@
+.skills {
+  height: 100%;
+
+  .container {
+    height: 100%;
+    max-width: 1366px;
+    background-color: aliceblue;
+    margin: auto;
+    .frontend {
+      width: 50%;
+      .box {
+        width: 2rem;
+        height: 2rem;
+        background-color: brown;
+      }
+    }
+    .backend {
+      width: 50%;
+      .box {
+        width: 2rem;
+        height: 2rem;
+        background-color: brown;
+      }
+    }
+  }
+}
