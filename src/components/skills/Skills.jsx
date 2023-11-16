@@ -1,69 +1,155 @@
 import "./skills.scss";
+import { motion } from "framer-motion";
 
 function Skills() {
   return (
     <div className="skills">
       <div className="container">
-        <div className="frontend">
-          <div className="boxCover">
+        <div className="program">
+          <motion.div
+            className="boxCover"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+          >
             <div className="box">
               <img src="./react.png" alt="" />
             </div>
             <p>React JS</p>
-          </div>
-          <div className="boxCover">
-            <div className="box">
-              <img src="./react.png" alt="" />
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
+            <div className="box javascript">
+              <img src="./javascript.png" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-          <div className="boxCover">
+            <p>Javascript</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
             <div className="box">
-              <img src="./react.png" alt="" />
+              <img src="./html.png" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-          <div className="boxCover">
+            <p>HTML</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
             <div className="box">
-              <img src="./react.png" alt="" />
+              <img src="./css.png" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-          <div className="boxCover">
+            <p>CSS</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
             <div className="box">
-              <img src="./react.png" alt="" />
+              <img src="./sass.png" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-          <div className="boxCover">
+            <p>Sass</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
             <div className="box">
-              <img src="./react.png" alt="" />
+              <img src="./rbootstrap.jpg" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-          <div className="boxCover">
+            <p>React Bootstrap</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
             <div className="box">
-              <img src="./react.png" alt="" />
+              <img src="./git.png" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-          <div className="boxCover">
+            <p>Git</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
             <div className="box">
-              <img src="./react.png" alt="" />
+              <img src="./framermotion.webp" alt="" />
             </div>
-            <p>React JS</p>
-          </div>
-        </div>
-        <div className="backend">
-          {" "}
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
+            <p>Framer Motion</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
+            <div className="box">
+              <img src="./nodejs.png" alt="" />
+            </div>
+            <p>Node JS</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
+            <div className="box">
+              <img src="./mongodb.png" alt="" />
+            </div>
+            <p>Mongo DB</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
+            <div className="box " id="mongoose">
+              <img src="./mongoose.png" alt="" />
+            </div>
+            <p>Mongoose</p>
+          </motion.div>
+          <motion.div
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 1 }}
+            whileHover={{ scale: 1.2 }}
+            className="boxCover"
+          >
+            <div className="box " id="express">
+              <img src="./express.png" alt="" />
+            </div>
+            <p>Express</p>
+          </motion.div>
         </div>
       </div>
     </div>
