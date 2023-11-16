@@ -1,25 +1,54 @@
 .skills {
   height: 100%;
-
   .container {
     height: 100%;
     max-width: 1366px;
-    background-color: aliceblue;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
     .frontend {
       width: 50%;
-      .box {
-        width: 2rem;
-        height: 2rem;
-        background-color: brown;
+      height: 30rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7rem;
+
+      .boxCover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .box {
+          width: 7rem;
+          height: 7rem;
+          background-color: #ffebb7;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 1rem;
+          img {
+            width: 5rem;
+          }
+        }
       }
     }
     .backend {
       width: 50%;
+      height: 30rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7rem;
+
       .box {
-        width: 2rem;
-        height: 2rem;
-        background-color: brown;
+        width: 7rem;
+        height: 7rem;
+        background-color: #ad8e70;
+        border-radius: 1rem;
       }
     }
   }
